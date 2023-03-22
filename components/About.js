@@ -3,7 +3,13 @@ export default function About() {
     <section id="about">
       <div className="center">
         <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi dolor eius explicabo in libero, maiores mollitia nesciunt, officia, praesentium quo suscipit vitae voluptas. Ad doloribus esse quas repudiandae voluptatem.</p>
+        <p>Self-thought web developer from
+          2019. Looking to join a company and to
+          contribute to interns or real-world
+          development. In a previous role,
+          successfully managed the role and
+          assist team in side server to create
+          unit test and others</p>
       </div>
     </section>
   );

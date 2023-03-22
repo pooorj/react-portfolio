@@ -1,7 +1,7 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export default function Intro() {
-  const [classes,setClasses] = useState('');
+  const [classes, setClasses] = useState('');
 
   useEffect(() => {
     setClasses('visible');
@@ -10,11 +10,11 @@ export default function Intro() {
   return (
     <section id="intro" className={classes}>
       <div>
-        <p>I&apos;m <span>Dawid Paszko</span><br />Full-stack javascript developer,<br />code enthusiast and youtuber</p>
+        <p>I&apos;m <span>Purnama Anugrah</span><br />Web developer,<br />especially backend side</p>
         <a href="">Contact me</a>
       </div>
       <div>
-        <img src="/img/me.png" alt=""/>
+        <img src="/img/me.png" alt="" />
       </div>
     </section>
   );
